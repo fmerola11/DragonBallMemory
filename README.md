@@ -19,7 +19,7 @@ Are you ready to help the Earth and avoid its destruction because of Vegeta? Wel
 + AVFoundation
 
 ## Credits
-The Dragon Ball characters used in this app are the property of Akira Toriyama and Toei Animation. This app is not affiliated with or endorsed by Akira Toriyama or Toei Animation.
+The Dragon Ball characters used in this app are the property of Akira Toriyama and Toei Animation. This app is not affiliated with or endorsed by Akira Toriyama or Toei Animation. Sounds and the images for characters are taken from the web.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
