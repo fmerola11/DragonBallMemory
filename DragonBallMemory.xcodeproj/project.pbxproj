@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		13D3CC9629FAE1DC000B4426 /* DragonBallMemoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CC9529FAE1DC000B4426 /* DragonBallMemoryApp.swift */; };
-		13D3CC9829FAE1DC000B4426 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CC9729FAE1DC000B4426 /* ContentView.swift */; };
 		13D3CC9A29FAE1DC000B4426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D3CC9929FAE1DC000B4426 /* Assets.xcassets */; };
 		13D3CC9D29FAE1DC000B4426 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D3CC9C29FAE1DC000B4426 /* Preview Assets.xcassets */; };
+		13D3CCA629FAE234000B4426 /* Nacell Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13D3CCA429FAE234000B4426 /* Nacell Sound.mp3 */; };
+		13D3CCA729FAE234000B4426 /* Danger Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13D3CCA529FAE234000B4426 /* Danger Alarm.mp3 */; };
+		13D3CCAC29FAE2D7000B4426 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CCAB29FAE2D7000B4426 /* CardView.swift */; };
+		13D3CCAE29FAE2DF000B4426 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CCAD29FAE2DF000B4426 /* CountdownView.swift */; };
+		13D3CCB429FAE2EA000B4426 /* MemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CCAF29FAE2EA000B4426 /* MemoryView.swift */; };
+		13D3CCB529FAE2EA000B4426 /* DangerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CCB029FAE2EA000B4426 /* DangerView.swift */; };
+		13D3CCB629FAE2EA000B4426 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CCB129FAE2EA000B4426 /* ViewController.swift */; };
+		13D3CCB729FAE2EA000B4426 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CCB229FAE2EA000B4426 /* OnboardingView.swift */; };
+		13D3CCB829FAE2EA000B4426 /* NacelleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CCB329FAE2EA000B4426 /* NacelleView.swift */; };
+		13D3CCBC29FAE2FB000B4426 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CCBA29FAE2FB000B4426 /* Card.swift */; };
+		13D3CCC129FAE334000B4426 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CCBF29FAE334000B4426 /* TimerManager.swift */; };
+		13D3CCC229FAE334000B4426 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3CCC029FAE334000B4426 /* SessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13D3CC9229FAE1DC000B4426 /* DragonBallMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBallMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D3CC9529FAE1DC000B4426 /* DragonBallMemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallMemoryApp.swift; sourceTree = "<group>"; };
-		13D3CC9729FAE1DC000B4426 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13D3CC9929FAE1DC000B4426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D3CC9C29FAE1DC000B4426 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13D3CCA429FAE234000B4426 /* Nacell Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nacell Sound.mp3"; sourceTree = "<group>"; };
+		13D3CCA529FAE234000B4426 /* Danger Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Danger Alarm.mp3"; sourceTree = "<group>"; };
+		13D3CCAB29FAE2D7000B4426 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		13D3CCAD29FAE2DF000B4426 /* CountdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		13D3CCAF29FAE2EA000B4426 /* MemoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryView.swift; sourceTree = "<group>"; };
+		13D3CCB029FAE2EA000B4426 /* DangerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DangerView.swift; sourceTree = "<group>"; };
+		13D3CCB129FAE2EA000B4426 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13D3CCB229FAE2EA000B4426 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		13D3CCB329FAE2EA000B4426 /* NacelleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NacelleView.swift; sourceTree = "<group>"; };
+		13D3CCBA29FAE2FB000B4426 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		13D3CCBF29FAE334000B4426 /* TimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		13D3CCC029FAE334000B4426 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +74,11 @@
 			isa = PBXGroup;
 			children = (
 				13D3CC9529FAE1DC000B4426 /* DragonBallMemoryApp.swift */,
-				13D3CC9729FAE1DC000B4426 /* ContentView.swift */,
 				13D3CC9929FAE1DC000B4426 /* Assets.xcassets */,
+				13D3CCA329FAE227000B4426 /* Sounds */,
+				13D3CCAA29FAE2C2000B4426 /* View */,
+				13D3CCBE29FAE334000B4426 /* Manager */,
+				13D3CCB929FAE2FB000B4426 /* Model */,
 				13D3CC9B29FAE1DC000B4426 /* Preview Content */,
 			);
 			path = DragonBallMemory;
@@ -65,6 +90,46 @@
 				13D3CC9C29FAE1DC000B4426 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13D3CCA329FAE227000B4426 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				13D3CCA529FAE234000B4426 /* Danger Alarm.mp3 */,
+				13D3CCA429FAE234000B4426 /* Nacell Sound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		13D3CCAA29FAE2C2000B4426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13D3CCAB29FAE2D7000B4426 /* CardView.swift */,
+				13D3CCAD29FAE2DF000B4426 /* CountdownView.swift */,
+				13D3CCB029FAE2EA000B4426 /* DangerView.swift */,
+				13D3CCAF29FAE2EA000B4426 /* MemoryView.swift */,
+				13D3CCB329FAE2EA000B4426 /* NacelleView.swift */,
+				13D3CCB229FAE2EA000B4426 /* OnboardingView.swift */,
+				13D3CCB129FAE2EA000B4426 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13D3CCB929FAE2FB000B4426 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13D3CCBA29FAE2FB000B4426 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13D3CCBE29FAE334000B4426 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				13D3CCBF29FAE334000B4426 /* TimerManager.swift */,
+				13D3CCC029FAE334000B4426 /* SessionManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +190,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D3CCA729FAE234000B4426 /* Danger Alarm.mp3 in Resources */,
 				13D3CC9D29FAE1DC000B4426 /* Preview Assets.xcassets in Resources */,
 				13D3CC9A29FAE1DC000B4426 /* Assets.xcassets in Resources */,
+				13D3CCA629FAE234000B4426 /* Nacell Sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +204,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D3CC9829FAE1DC000B4426 /* ContentView.swift in Sources */,
+				13D3CCB529FAE2EA000B4426 /* DangerView.swift in Sources */,
+				13D3CCC229FAE334000B4426 /* SessionManager.swift in Sources */,
+				13D3CCC129FAE334000B4426 /* TimerManager.swift in Sources */,
+				13D3CCAC29FAE2D7000B4426 /* CardView.swift in Sources */,
+				13D3CCB429FAE2EA000B4426 /* MemoryView.swift in Sources */,
+				13D3CCB829FAE2EA000B4426 /* NacelleView.swift in Sources */,
+				13D3CCB629FAE2EA000B4426 /* ViewController.swift in Sources */,
+				13D3CCB729FAE2EA000B4426 /* OnboardingView.swift in Sources */,
+				13D3CCBC29FAE2FB000B4426 /* Card.swift in Sources */,
+				13D3CCAE29FAE2DF000B4426 /* CountdownView.swift in Sources */,
 				13D3CC9629FAE1DC000B4426 /* DragonBallMemoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
