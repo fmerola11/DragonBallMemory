@@ -48,19 +48,6 @@ struct MemoryView: View {
                         
                         CountdownView(timerManager: timerManager, countTo: timerManager.countTo)
                             .padding(20)
-                        
-                        //                        VStack {
-                        //                            Text("Allies to summon:")
-                        //                                .font(.system(size: 25))
-                        //                            LazyVGrid(columns: twoColumsGrid, spacing: 4) {
-                        //                                ForEach(imageNames, id: \.self) { image in
-                        //                                    if !matchedCards.contains(where: { $0.imageName == image}) {
-                        //                                        Text(image)
-                        //                                            .font(.system(size: 22))
-                        //                                    }
-                        //                                }
-                        //                            }
-                        //                        }
                     }
                 }
                 .onChange(of: matchedCards) { _ in
@@ -91,18 +78,6 @@ struct MemoryView: View {
                 } message: {
                     Text("The Earth thanks you. Now the Z warriors are ready to face Vegeta! 💥")
                 }
-                //                .alert(isPresented: $showWinAlert) {
-                //                    Alert(
-                //                        title: Text("Well done!"),
-                //                        message: Text("The Earth thanks you, now the Z warriors are ready to face Vegeta! 💥"),
-                //                        dismissButton: .default(Text("Play again")) {
-                //                            timerManager.startTimer()
-                //                            matchedCards = []
-                //                            userChoices = []
-                //                            cards.shuffle()
-                //                        }
-                //                    )
-                //                }
             }
         }
     }
